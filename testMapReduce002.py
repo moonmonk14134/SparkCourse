@@ -20,3 +20,7 @@ result_1 = filter_1.countByValue()
 sortResults_1 = collections.OrderedDict(sorted(result_1.items()))
 for key, value in sortResults_1.items():
     print("%s %i" % (key, value))
+
+lines.cache()
+isCache = lines.is_cached
+print("lines got chached > %s" % (isCache) )
