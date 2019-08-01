@@ -1,1 +1,20 @@
-/Users/jchang/github/README
+
+Create a new repository on Github
+jchang@iMac:~/github>git clone https://github.com/moonmonk14134/SparkCourse.git
+
+You can also specify -v, which shows you the URLs that Git has stored for the shortname to be used when reading and writing to that remote:
+jchang@iMac:~/github/SparkCourse>git remote -v
+origin	https://github.com/moonmonk14134/SparkCourse.git (fetch)
+origin	https://github.com/moonmonk14134/SparkCourse.git (push)
+
+
+$> git add .   (git add *)
+$> git commit
+$> git pull
+$> git push origin master 
+
+
+Inspecting a remote
+$ git remote show origin
+$ git remote -v
+$ git master status
